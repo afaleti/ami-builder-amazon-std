@@ -1,5 +1,15 @@
 {
     "builders": [{
+    	"aws_access_key": "",
+    	"aws_secret_key": "",
+    	"vpc_id": "vpc-xxxxxx",
+    	"vpc_name": "cloudmonks-",
+    	"vpc_cidr": "10.250.96.0/20",
+    	"security_group_id": "sg-xxxxxxx",
+    	"_comment_subnet_id": "Packer needs at least 1 subnet .....predifined vpc is present.",
+    	"subnet_id": "subnet-xxxxxxxx",
+    	"subnet_name": "cloudmonks",
+    	"aws_build_region": "us-east-1",	
         "vpc_id": "{{user `vpc_id`}}",
         "subnet_id": "{{user `subnet_id`}}",
         "type": "amazon-ebs",
