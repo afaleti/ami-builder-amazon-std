@@ -1,2 +1,2 @@
-# ami-builder-rhel74
-Repo for RHEL 7.4
+# ami-builder-amazon-std
+Repo for Amazon Linux Standard
